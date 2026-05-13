@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <title>Formulario html</title>
+    <title>Formulario html</title> <!--certo-->
     <meta charset="UTF-8">
-</head>
+</head> <!--certo-->
 
 <body>
-    <h1>Cadastro de Usuàrio</h1>
-    <form action="cadastro.php" method="POST">
+    <h1>Cadastro de Usuàrio</h1> <!--certo-->
+    <form action="cadastro.php" method="POST"> <!--certo-->
         <label for="nome">Nome:</label>
-        <input type="text" id="nome" nome="nome">
+        <input type="text" id="nome" nome="nome"> <!--certo-->
         <br>
         <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email"> <!--certo-->
         <br>
         <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha">
+        <input type="password" id="senha" name="senha"> <!--certo-->
         <br>
         <label for="idade">Idade:</label>
         <input type="number" id="idade" name="idade">
         <br>
-        <label for="data">Data de nacimento:</label>
-        <input type="data" id="Name" name="Nascimento">
+        <label for="data">Data de nacimento:</label> <!--errado-->
+        <input type="data" id="Name" name="Nascimento"> <!--certo-->
         <br>
         <p>Turno:</p>
         <input type="radio" name="turno" id="manha"> <label for="manha">Manhã</label>
-        <input type="radio" name="turno" id="tarde"> <label for="noite">Tarde</label>
+        <input type="radio" name="turno" id="tarde"> <label for="noite">Tarde</label> <!--certo--> <!--certo-->
         <input type="radio" name="turno" id="noite"> <label for="noite">Noite</label>
         <br>
         <p>Áreas de interesse:</p>
         <input type="checkbox" name="area" id="programacao"> <label for="pogramacao">Programação</label>
         <input type="checkbox" name="area" id="design"> <label for="design">Design</label>
-        <input type="checkbox" name="area" id="redes"> <label for="redes">Redes</label>
+        <input type="checkbox" name="area" id="redes"> <label for="redes">Redes</label> <!--certo-->
         <br>
-        <input type="reset" value="Limpar">
-        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"> <!--certo-->
+        <input type="submit" value="Enviar"> <!--certo-->
    </form>
 </body>
 </html>
