@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Formulario html</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Controles de formulário</h1>
+    <form action="cadastro.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" nome="nome">
+        <br>
+        <label for="turno"> Qual turno você prefere estudar:</label>
+        <input type="radio" name="turno" id="manha"> <label for="manha">Manhã</label> <br>
+        <input type="radio" name="turno" id="tarde"> <label for="noite">Tarde</label> <br>
+        <input type="radio" name="turno" id="noite"> <label for="noite">Noite</label>
+        <br>
+        <label for= "area">Quais áreas da tecnologia você tem interesse? </label> 
+        <input type="checkbox" name="area" id="programação"> <label for="programação">programação</label> <br>
+        <input type="checkbox" name="area" id="Desing"> <label for="Design">Design</label> <br>
+        <input type="checkbox" name="area" id="Bancos de Dados"> <label for="Bancos de Dados">Bancos de Dados</label> <br>
+        <input type="checkbox" name="area" id="Redes"> <label for="Redes">Redes</label> <br>
+        <br>
+        <label> Qual sua cor favorita? </label>
+        <input type="color">
+        <br>
+        <label> Qual seu nivel de satisfação? </label>
+        <input type="range">
+        <br>
+        <label> Qual seu horario favorito? </label>
+        <input type="time">
+        <br>
+        <input type="file">
+        <br>
+        <input type="submit" value="Cadastrar">
+        <input type="submit" value="limpar">
+        
+     
+     
